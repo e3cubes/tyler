@@ -1,12 +1,12 @@
-/* Loggies Little League demo: small, dependency-free interactions. */
+/* Lowville Little League demo: small, dependency-free interactions. */
 (function () {
   'use strict';
 
   // DEMO ONLY: client-side password check. Not real security.
   // In the live site, officers would sign in with their Google account and
   // only see files from the private "Officers" Drive folder they're shared on.
-  var DEMO_PASSWORD = 'loggies';
-  var STORAGE_KEY = 'loggies-officer-demo';
+  var DEMO_PASSWORD = 'lowville';
+  var STORAGE_KEY = 'lowville-officer-demo';
 
   // Mobile nav
   var toggle = document.querySelector('.nav-toggle');
@@ -64,7 +64,7 @@
       dialog.showModal();
     } else {
       // Very old browsers: fall back to prompt()
-      var v = window.prompt('Officers password (DEMO ONLY: loggies)');
+      var v = window.prompt('Officers password (DEMO ONLY: lowville)');
       if (v !== null && v.trim().toLowerCase() === DEMO_PASSWORD) setUnlocked(true);
       return;
     }

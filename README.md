@@ -1,6 +1,6 @@
-# Loggies Little League (demo site)
+# Lowville Little League (demo site)
 
-A simple, static demo website for **Loggies Little League**: locations, photos, contacts, archives, an information hub, and an officers-only portal.
+A simple, static demo website for **Lowville Little League**: locations, photos, contacts, archives, an information hub, and an officers-only portal.
 
 **This is a pitch demo.** All names, emails, phone numbers, addresses, and documents are placeholders. Nothing is connected to Google Drive yet. Every content section is designed to show *where* the league would manage that content in Google Drive or Google Sheets once it's live.
 
@@ -11,7 +11,7 @@ Live URL (once Pages is enabled): https://tyler.evanjennings.com
 | File | Purpose |
 |---|---|
 | `index.html` | The whole site (single page) |
-| `styles.css` | Styles: Loggies purple, white, and black |
+| `styles.css` | Styles: Lowville purple, white, and black |
 | `app.js` | Mobile menu, demo officers login, demo Drive link toasts |
 | `assets/` | Team photo, baseball mark, favicon, and touch icon |
 | `CNAME` | Custom domain for GitHub Pages (`tyler.evanjennings.com`) |
@@ -26,7 +26,7 @@ python3 -m http.server 8000
 
 ## Officers portal (demo)
 
-Click **Officers login** and enter the password **`loggies`**.
+Click **Officers login** and enter the password **`lowville`**.
 
 This is a **client-side demo gate only**, not real security: anyone can read the password in `app.js`. In the live version, officers would sign in with Google and only see files from a Drive folder shared with board members.
 
@@ -35,7 +35,7 @@ This is a **client-side demo gate only**, not real security: anyone can read the
 Each section on the site has a "Managed in Google Drive" badge and a folder path. The plan:
 
 ```
-Drive / Loggies Little League /
+Drive / Lowville Little League /
 ├── Locations            (Google Sheet)  → Locations table
 │     columns: Field name | Address | Used for | Map note
 ├── Contacts             (Google Sheet)  → Contact section
