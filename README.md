@@ -11,7 +11,7 @@ Live URL (once Pages is enabled): https://tyler.evanjennings.com
 | File | Purpose |
 |---|---|
 | `index.html` | The whole site (single page) |
-| `styles.css` | Styles: Lowville purple, white, and black |
+| `styles.css` | Styles: classic baseball red, white, and navy |
 | `app.js` | Mobile menu, demo officers login, demo Drive link toasts |
 | `assets/` | Team photo, baseball mark, favicon, and touch icon |
 | `CNAME` | Custom domain for GitHub Pages (`tyler.evanjennings.com`) |

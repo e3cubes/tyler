@@ -1,17 +1,17 @@
 :root {
-  --purple: #4A1A6B;
-  --purple-dark: #2F0F45;
-  --purple-light: #EFE7F6;
-  --purple-mid: #7B4A9E;
-  --gold: #F2B705;
+  --purple: #C8102E; /* primary red (used by existing class names) */
+  --purple-dark: #8B0A1E;
+  --purple-light: #FDECEE;
+  --purple-mid: #E63950;
+  --gold: #0A2240; /* navy accent */
   --ink: #141414;
-  --muted: #5f5868;
-  --line: #e2dbe9;
+  --muted: #5a5a5a;
+  --line: #e5e5e5;
   --bg: #ffffff;
-  --bg-alt: #faf7fc;
+  --bg-alt: #f7f7f7;
   --sheet-green: #188038;
   --radius: 14px;
-  --shadow: 0 6px 24px rgba(47, 15, 69, .10);
+  --shadow: 0 6px 24px rgba(10, 34, 64, .10);
   --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --display: "Georgia", "Times New Roman", serif;
 }
@@ -26,12 +26,12 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip-link { position: absolute; left: -999px; top: 0; background: var(--ink); color: #fff; padding: .6rem 1rem; z-index: 100; }
 .skip-link:focus { left: 1rem; }
-:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 4px; }
+:focus-visible { outline: 3px solid var(--purple); outline-offset: 2px; border-radius: 4px; }
 .muted { color: var(--muted); }
 
 /* Demo banner */
 .demo-banner { background: var(--ink); color: #eee; text-align: center; font-size: .85rem; padding: .45rem 1rem; }
-.demo-banner strong { color: var(--gold); text-transform: uppercase; letter-spacing: .06em; margin-right: .25rem; }
+.demo-banner strong { color: #ffb3bd; text-transform: uppercase; letter-spacing: .06em; margin-right: .25rem; }
 
 /* Header */
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
@@ -55,28 +55,28 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .btn-primary:hover { background: var(--purple-dark); color: #fff; }
 .btn-ghost { background: rgba(255,255,255,.12); color: #fff; border-color: rgba(255,255,255,.6); }
 .btn-ghost:hover { background: #fff; color: var(--purple); }
-.btn-gold { background: var(--gold); color: var(--ink); font-size: 1.05rem; padding: .85rem 1.8rem; }
-.btn-gold:hover { background: #ffd23f; }
+.btn-gold { background: var(--gold); color: #fff; font-size: 1.05rem; padding: .85rem 1.8rem; }
+.btn-gold:hover { background: #14345f; }
 .btn-ghost-dark { background: transparent; color: var(--ink); border-color: var(--line); }
 .btn-ghost-dark:hover { border-color: var(--purple); color: var(--purple); }
 .btn-small { padding: .4rem .9rem; font-size: .85rem; }
 
 /* Hero */
-.hero { background: radial-gradient(circle at 85% 20%, #6b2d96 0, transparent 45%), linear-gradient(135deg, var(--purple-dark), var(--purple)); color: #fff; padding: clamp(3rem, 7vw, 5.5rem) 0; position: relative; overflow: hidden; }
+.hero { background: radial-gradient(circle at 85% 20%, #e63950 0, transparent 45%), linear-gradient(135deg, #0A2240, var(--purple-dark) 45%, var(--purple)); color: #fff; padding: clamp(3rem, 7vw, 5.5rem) 0; position: relative; overflow: hidden; }
 .hero::after { content: ""; position: absolute; inset: auto -10% -60px -10%; height: 120px; background: #fff; border-radius: 50% 50% 0 0; }
 .hero-inner { display: grid; grid-template-columns: 1.1fr 1fr; gap: 3rem; align-items: center; position: relative; z-index: 1; }
 .eyebrow { display: inline-block; background: rgba(255,255,255,.14); padding: .3rem .8rem; border-radius: 999px; font-size: .85rem; font-weight: 600; margin: 0 0 1rem; }
 .hero h1 { font-family: var(--display); font-style: italic; font-size: clamp(2.8rem, 7vw, 4.6rem); line-height: 1; margin: 0 0 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: .2em .35em; }
-.hero h1 span { font-family: var(--font); font-style: normal; font-weight: 800; font-size: .42em; text-transform: uppercase; letter-spacing: .14em; flex-basis: 100%; color: #e6d6f2; }
+.hero h1 span { font-family: var(--font); font-style: normal; font-weight: 800; font-size: .42em; text-transform: uppercase; letter-spacing: .14em; flex-basis: 100%; color: #ffd6dc; }
 .hero-ball { width: .9em; height: .9em; border-radius: 50%; box-shadow: 0 6px 20px rgba(0,0,0,.35); animation: spin 14s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .hero-ball { animation: none; } html { scroll-behavior: auto; } }
-.tagline { font-size: 1.2rem; max-width: 34ch; color: #f3ebf9; margin: 0 0 1.75rem; }
+.tagline { font-size: 1.2rem; max-width: 34ch; color: #f5f5f5; margin: 0 0 1.75rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
 .quick-facts { list-style: none; padding: 0; margin: 2rem 0 0; display: flex; gap: 1.75rem; flex-wrap: wrap; }
 .quick-facts li { display: flex; flex-direction: column; }
 .quick-facts strong { font-size: 1.1rem; }
-.quick-facts span { font-size: .85rem; color: #d9c8e6; }
+.quick-facts span { font-size: .85rem; color: #d7dde8; }
 .hero-photo { margin: 0; background: #fff; padding: .7rem .7rem 0; border-radius: 6px; box-shadow: 0 20px 50px rgba(0,0,0,.35); transform: rotate(2deg); }
 .hero-photo img { width: 100%; border-radius: 3px; }
 .hero-photo figcaption { color: var(--ink); font-family: var(--display); font-style: italic; text-align: center; padding: .6rem 0 .8rem; font-size: .95rem; }
@@ -139,7 +139,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .contact-card h3 { margin: 0 0 .6rem; }
 .contact-card p { margin: .3rem 0; }
 .contact-card a { color: #fff; font-weight: 700; font-size: 1.05rem; }
-.contact-card .muted { color: #d9c8e6; font-size: .88rem; margin-top: .8rem; }
+.contact-card .muted { color: #d7dde8; font-size: .88rem; margin-top: .8rem; }
 
 /* File list */
 .file-list { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
@@ -168,7 +168,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 /* Officers */
 .section-dark { background: linear-gradient(160deg, var(--ink), var(--purple-dark)); color: #fff; }
 .section-dark .section-head h2 { color: #fff; }
-.section-dark .section-head p { color: #d9c8e6; }
+.section-dark .section-head p { color: #d7dde8; }
 .gate { text-align: center; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.15); border-radius: var(--radius); padding: 2.5rem 1.5rem; }
 .gate p { margin: 0 0 1.25rem; color: #e9def2; }
 .demo-note { margin: 1.25rem 0 0 !important; display: inline-block; background: var(--gold); color: var(--ink) !important; font-weight: 800; font-size: .85rem; padding: .3rem .8rem; border-radius: 6px; letter-spacing: .03em; }
