@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loggies Little League</title>
+  <meta name="description" content="Loggies Little League: fields, photos, contacts, archives, and info for players, families, and volunteers.">
+  <meta name="theme-color" content="#4A1A6B">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:title" content="Loggies Little League">
+  <meta property="og:image" content="assets/team-loggies-cropped.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="demo-banner" role="note">
+    <strong>Demo preview</strong> · Content below is sample data. In the live site, each section would be fed by Google Drive.
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Loggies Little League home">
+        <img src="assets/logo-ball.png" alt="" width="40" height="40">
+        <span class="brand-text"><span class="brand-name">Loggies</span><span class="brand-sub">Little League</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span><span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <a href="#locations">Locations</a>
+        <a href="#photos">Photos</a>
+        <a href="#contact">Contact</a>
+        <a href="#archives">Archives</a>
+        <a href="#info">Info Hub</a>
+        <a href="#officers" class="nav-officers">🔒 Officers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Spring Season 2027 · Registration opens soon</p>
+          <h1><img class="hero-ball" src="assets/logo-ball.png" alt="" width="72" height="72"> Loggies <span>Little League</span></h1>
+          <p class="tagline">Hometown baseball for every kid. Grass stains, big smiles, and a whole lot of purple.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#info">Forms &amp; schedules</a>
+            <a class="btn btn-ghost" href="#locations">Find a field</a>
+          </div>
+          <ul class="quick-facts" aria-label="Quick facts">
+            <li><strong>Ages 4–12</strong><span>T-ball through Majors</span></li>
+            <li><strong>3 fields</strong><span>Close to home</span></li>
+            <li><strong>Volunteer-run</strong><span>By local families</span></li>
+          </ul>
+        </div>
+        <figure class="hero-photo">
+          <img src="assets/team-loggies-cropped.jpg" alt="Loggies players in purple jerseys and black caps posing in front of the Loggies Flooring Center sponsor banner" width="411" height="305">
+          <figcaption>Go Loggies! Thanks to our sponsor, Loggies Flooring Center.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how" aria-labelledby="how-title">
+      <div class="container">
+        <div class="how-card">
+          <div class="how-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="44" height="44"><path fill="#4285F4" d="M15.4 30.6 9.7 40.5h28.6l5.7-9.9z"/><path fill="#0F9D58" d="M9.7 40.5 4 30.6 18.3 6l5.7 9.9z"/><path fill="#FFC107" d="M24 15.9 18.3 6h11.4L44 30.6H32.6z"/></svg>
+          </div>
+          <div>
+            <h2 id="how-title">Run the whole site from Google Drive</h2>
+            <p>Every section marked <span class="badge badge-inline">Managed in Google Drive</span> is driven by a Sheet or folder the board already knows how to use. Change a field address in the Sheet, drop a PDF in the folder, and the site updates itself. No web developer, no logins to a website builder.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATIONS -->
+    <section id="locations" class="section" aria-labelledby="loc-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="loc-title">Locations</h2>
+          <p>Where we play and practice. Tap a field for directions.</p>
+        </div>
+        <div class="drive-panel" data-preview>
+          <div class="drive-meta">
+            <span class="badge">Managed in Google Drive</span>
+            <code class="drive-path">📁 Drive › Loggies Little League › <b>Locations</b> <span class="filetype sheet">Google Sheet</span></code>
+            <p class="drive-help">In the live site, edits in this Google Sheet would update this section automatically.</p>
+          </div>
+          <div class="sheet" role="region" aria-label="Locations sheet preview" tabindex="0">
+            <table>
+              <thead>
+                <tr><th class="rownum" aria-hidden="true"></th><th>Field name</th><th>Address</th><th>Used for</th><th>Map note</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="rownum" aria-hidden="true">2</td><td><strong>Field A – City Park</strong></td><td>123 Example Ave, Hometown</td><td>T-ball, Coach Pitch</td><td>Park by the playground; restrooms open game days</td></tr>
+                <tr><td class="rownum" aria-hidden="true">3</td><td><strong>Field B – Riverside Diamond</strong></td><td>456 Placeholder Rd, Hometown</td><td>Minors, Majors</td><td>Lights for evening games; concession stand</td></tr>
+                <tr><td class="rownum" aria-hidden="true">4</td><td><strong>Field C – School Practice Field</strong></td><td>789 Sample St, Hometown</td><td>Practices only</td><td>Enter from the back lot; no dogs please</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="sheet-foot">Columns map 1:1 to the Sheet: <em>Field name · Address · Used for · Map note</em>. A Google Maps link is built from the address.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section id="photos" class="section section-alt" aria-labelledby="photos-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="photos-title">Photos</h2>
+          <p>Team pictures, game days, and end-of-season fun.</p>
+        </div>
+        <div class="drive-panel" data-preview>
+          <div class="drive-meta">
+            <span class="badge">Managed in Google Drive</span>
+            <code class="drive-path">📁 Drive › Loggies Little League › <b>Photos</b> <span class="filetype folder">Folder</span></code>
+            <p class="drive-help">In the live site, any photo dropped into this Drive folder would appear in the gallery automatically. Subfolders (e.g. <em>2026 Spring</em>) become albums.</p>
+          </div>
+          <div class="gallery">
+            <figure class="gallery-item gallery-wide">
+              <img src="assets/team-loggies-cropped.jpg" alt="Loggies team photo: players in purple jerseys and black caps by the outfield fence" loading="lazy">
+              <figcaption>Loggies team photo <span class="muted">· team-loggies.jpg</span></figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/baseball.jpg" alt="A baseball" loading="lazy" class="contain">
+              <figcaption>Play ball! <span class="muted">· baseball.jpg</span></figcaption>
+            </figure>
+            <div class="gallery-item gallery-placeholder" aria-hidden="true">
+              <span>＋</span>
+              <p>More photos from<br><code>Drive › Photos › 2026 Spring</code></p>
+            </div>
+            <div class="gallery-item gallery-placeholder" aria-hidden="true">
+              <span>＋</span>
+              <p>Picture Day album<br><code>Drive › Photos › Picture Day</code></p>
+            </div>
+          </div>
+          <p class="sheet-foot">Want more right now? See the full album on our <a href="https://www.facebook.com/profile.php?id=100068575132580&amp;sk=photos" target="_blank" rel="noopener">Facebook photos page ↗</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="contact-title">Contact</h2>
+          <p>Questions about registration, schedules, or volunteering? Reach the right person.</p>
+        </div>
+        <div class="drive-panel" data-preview>
+          <div class="drive-meta">
+            <span class="badge">Managed in Google Drive</span>
+            <code class="drive-path">📁 Drive › Loggies Little League › <b>Contacts</b> <span class="filetype sheet">Google Sheet</span></code>
+            <p class="drive-help">In the live site, edits in this Google Sheet would update this section automatically. New board member? Add a row.</p>
+          </div>
+          <div class="contact-grid">
+            <article class="contact-card contact-main">
+              <h3>League inbox</h3>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="tel:+15550100100">(555) 010-0100</a></p>
+              <p class="muted">We usually reply within a day or two.</p>
+            </article>
+            <div class="sheet" role="region" aria-label="Board contacts sheet preview" tabindex="0">
+              <table>
+                <thead><tr><th class="rownum" aria-hidden="true"></th><th>Role</th><th>Name</th><th>Email</th><th>Phone</th></tr></thead>
+                <tbody>
+                  <tr><td class="rownum" aria-hidden="true">2</td><td>President</td><td>[President Name]</td><td><a href="mailto:president@example.com">president@example.com</a></td><td>(555) 010-0101</td></tr>
+                  <tr><td class="rownum" aria-hidden="true">3</td><td>Registrar</td><td>[Registrar Name]</td><td><a href="mailto:register@example.com">register@example.com</a></td><td>(555) 010-0102</td></tr>
+                  <tr><td class="rownum" aria-hidden="true">4</td><td>Coach Coordinator</td><td>[Coach Name]</td><td><a href="mailto:coach@example.com">coach@example.com</a></td><td>(555) 010-0103</td></tr>
+                  <tr><td class="rownum" aria-hidden="true">5</td><td>Fields &amp; Equipment</td><td>[Fields Name]</td><td><a href="mailto:fields@example.com">fields@example.com</a></td><td>(555) 010-0104</td></tr>
+                  <tr><td class="rownum" aria-hidden="true">6</td><td>Sponsorships</td><td>[Sponsor Contact]</td><td><a href="mailto:sponsors@example.com">sponsors@example.com</a></td><td>(555) 010-0105</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARCHIVES -->
+    <section id="archives" class="section section-alt" aria-labelledby="arch-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="arch-title">Archives</h2>
+          <p>Past seasons, schedules, and standings.</p>
+        </div>
+        <div class="drive-panel" data-preview>
+          <div class="drive-meta">
+            <span class="badge">Managed in Google Drive</span>
+            <code class="drive-path">📁 Drive › Loggies Little League › <b>Archives</b> <span class="filetype folder">Folder</span></code>
+            <p class="drive-help">In the live site, every PDF or Doc saved in this folder would be listed here automatically, newest first.</p>
+          </div>
+          <ul class="file-list" id="archive-list">
+            <li><span class="ficon pdf">PDF</span><span class="fname">2026 Spring – Final Standings.pdf</span><span class="fmeta">Season 2026</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon pdf">PDF</span><span class="fname">2026 Spring – Game Schedule.pdf</span><span class="fmeta">Season 2026</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon doc">DOC</span><span class="fname">2026 End-of-Season Picnic Recap</span><span class="fmeta">Season 2026</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon pdf">PDF</span><span class="fname">2025 Spring – Final Standings.pdf</span><span class="fmeta">Season 2025</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon pdf">PDF</span><span class="fname">2025 Spring – Game Schedule.pdf</span><span class="fmeta">Season 2025</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon pdf">PDF</span><span class="fname">2024 Spring – Game Schedule.pdf</span><span class="fmeta">Season 2024</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO HUB -->
+    <section id="info" class="section" aria-labelledby="info-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="info-title">Information Hub</h2>
+          <p>Everything families and coaches need, in one place.</p>
+        </div>
+        <div class="drive-panel" data-preview>
+          <div class="drive-meta">
+            <span class="badge">Managed in Google Drive</span>
+            <code class="drive-path">📁 Drive › Loggies Little League › <b>Info Hub</b> <span class="filetype folder">Folder</span></code>
+            <p class="drive-help">In the live site, each subfolder below becomes a card. Add a file to a subfolder and it shows up here automatically.</p>
+          </div>
+          <div class="hub-grid">
+            <a class="hub-card" href="#" data-demo-link>
+              <span class="hub-emoji" aria-hidden="true">📘</span>
+              <h3>Handbooks</h3>
+              <p>Parent handbook, code of conduct, safety plan.</p>
+              <code>› Info Hub › Handbooks</code>
+              <span class="hub-count">3 files</span>
+            </a>
+            <a class="hub-card" href="#" data-demo-link>
+              <span class="hub-emoji" aria-hidden="true">📝</span>
+              <h3>Forms</h3>
+              <p>Registration, medical release, volunteer sign-up.</p>
+              <code>› Info Hub › Forms</code>
+              <span class="hub-count">4 files</span>
+            </a>
+            <a class="hub-card" href="#" data-demo-link>
+              <span class="hub-emoji" aria-hidden="true">📅</span>
+              <h3>Schedules</h3>
+              <p>Game and practice calendars by division.</p>
+              <code>› Info Hub › Schedules</code>
+              <span class="hub-count">5 files</span>
+            </a>
+            <a class="hub-card" href="#" data-demo-link>
+              <span class="hub-emoji" aria-hidden="true">⚾</span>
+              <h3>Rules &amp; Divisions</h3>
+              <p>Age cutoffs, pitch counts, and local rules.</p>
+              <code>› Info Hub › Rules</code>
+              <span class="hub-count">2 files</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFICERS -->
+    <section id="officers" class="section section-dark" aria-labelledby="off-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="off-title">🔒 Officers Portal</h2>
+          <p>Board-only documents: budgets, minutes, and rosters.</p>
+        </div>
+
+        <div id="officers-locked" class="gate">
+          <p>This area is for league officers and board members.</p>
+          <button class="btn btn-gold" id="officers-open" aria-haspopup="dialog">Officers login</button>
+          <p class="demo-note">DEMO ONLY · password: <code>loggies</code></p>
+        </div>
+
+        <div id="officers-content" class="drive-panel drive-panel-light" data-preview hidden>
+          <div class="officers-top">
+            <p class="welcome">✅ Signed in as <strong>Officer (demo)</strong></p>
+            <button class="btn btn-small btn-ghost-dark" id="officers-logout">Log out</button>
+          </div>
+          <div class="drive-meta">
+            <span class="badge">Managed in Google Drive</span>
+            <code class="drive-path">📁 Drive › Loggies Little League › <b>Officers (Private)</b> <span class="filetype folder">Shared with board only</span></code>
+            <p class="drive-help">In the live site, this folder would be shared only with board members' Google accounts, and officers would sign in with Google. Files added here would show up for them automatically.</p>
+          </div>
+          <ul class="file-list">
+            <li><span class="ficon sheet">XLS</span><span class="fname">2027 Season Budget</span><span class="fmeta">Updated 2 days ago</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon doc">DOC</span><span class="fname">Board Meeting Minutes – October</span><span class="fmeta">Updated last week</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon sheet">XLS</span><span class="fname">Player Rosters &amp; Team Assignments</span><span class="fmeta">Updated last week</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon sheet">XLS</span><span class="fname">Volunteer Background Check Tracker</span><span class="fmeta">Updated 3 weeks ago</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+            <li><span class="ficon pdf">PDF</span><span class="fname">Sponsor Agreements 2027.pdf</span><span class="fmeta">Updated last month</span><a class="fopen" href="#" data-demo-link>Open</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-ball.png" alt="" width="36" height="36">
+        <div>
+          <strong>Loggies Little League</strong>
+          <p>Proudly sponsored by Loggies Flooring Center.</p>
+        </div>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="https://www.facebook.com/profile.php?id=100068575132580&amp;sk=photos" target="_blank" rel="noopener">Facebook photos ↗</a>
+        <a href="#contact">Contact</a>
+        <a href="#officers">Officers</a>
+      </nav>
+    </div>
+    <p class="container footer-fine">Demo site · sample content only · names, emails, and phone numbers are placeholders.</p>
+  </footer>
+
+  <!-- Officers login dialog -->
+  <dialog id="login-dialog" aria-labelledby="login-title">
+    <form id="login-form" method="dialog" novalidate>
+      <h2 id="login-title">Officers login</h2>
+      <p class="demo-pill">DEMO ONLY · password is <code>loggies</code></p>
+      <label for="pw">Password</label>
+      <input id="pw" name="pw" type="password" autocomplete="current-password" required>
+      <p id="login-error" class="login-error" role="alert" hidden>That password didn't work. (Hint: <code>loggies</code>)</p>
+      <div class="dialog-actions">
+        <button type="button" class="btn btn-ghost-dark" id="login-cancel">Cancel</button>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+      <p class="fine">Not real security: this demo checks the password in the browser. The live version would use Google sign-in.</p>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
