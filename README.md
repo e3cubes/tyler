@@ -82,4 +82,4 @@ dig tyler.evanjennings.com +short
 Team photo from the league's public Facebook photos page:
 https://www.facebook.com/profile.php?id=100068575132580&sk=photos
 
-Thanks to our sponsor, Roggies Flooring Center.
+Thanks to our sponsor, Roggie's Flooring Center.
